@@ -1,0 +1,19 @@
+<div id="inicio">
+    <div id="conteform">
+        
+        <h1 id="titulo" >Register</h1>
+        <div id="conteinputs">
+
+        <input class="input" type="email" placeholder="Email" [(ngModel)]="email">
+        <input class="input" type="password" placeholder="Password"  [(ngModel)]= "contrase" name="" id="">
+        <input class="input" type="password" placeholder="Repeat the password" [(ngModel)]= "contrase2" name="" id="">
+
+        <button id="BotonRegistrar" (click)="validarContra()">Register</button>
+        </div>
+    </div>
+    <div>
+       <p>Correo Electronico : {{email}} </p> 
+       <p>Contraseña : {{contrase}} </p>
+    </div>
+
+</div>

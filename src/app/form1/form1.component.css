@@ -1,0 +1,58 @@
+#inicio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#conteform{
+    margin: 2%;
+    padding: 2%;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(221, 221, 221, 0.514);
+    background-color: rgba(240, 246, 250, 0.788);
+    border: 0px solid black;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+   
+}
+#titulo{
+    margin-left: 10%;
+}
+
+.input{
+    width: 80%;
+    height: 23px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(180, 180, 180, 0.63);
+    background-color: rgba(182, 234, 255, 0.534);
+    font-size: 10px;
+    padding: 3px;
+   
+}
+
+
+#BotonRegistrar{
+    width: 82%;
+    height: 25px;
+    border-radius: 20px;
+    border: 0.5px solid rgba(180, 180, 180, 0.63);
+   background-color: rgba(181, 240, 196, 0.589);
+   box-shadow: 3px 3px 3px 3px rgba(221, 221, 221, 0.514);
+}
+#conteinputs{
+
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+
+}

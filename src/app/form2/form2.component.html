@@ -1,0 +1,35 @@
+<div id="contenedorinicial">
+
+    <div id="conteform">
+      
+        <div id="Desccont">
+        <label for="">Descripcion</label>
+        <input  type="text" name="" id="Desc">
+    </div>
+
+        <div class="contlab">
+        <label for="">Codigo</label>
+        <input class="inputmod" type="number" [(ngModel)] = codigo>
+
+        <label for="">Precio Costo  $</label>
+        <input class="inputmod" type="number" [(ngModel)] = precioCosto>
+        </div>
+
+        <div class="contlab">
+        <label for="">Precio Venta   $</label>
+        <input class="inputmod" type="number" [(ngModel)] = precioVenta>
+
+        <label for="">Stock Ideal</label>
+        <input class="inputmod" type="number" [(ngModel)] = stock>
+        </div>
+
+        <div id="botonesdiv">
+        <Button>Modificar</Button>
+        <Button (click)="validarStock()">Ingresar</Button>
+        <Button>Salid</Button>
+        </div>
+    </div>
+        
+
+    </div>
+
